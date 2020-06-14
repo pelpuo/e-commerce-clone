@@ -1,0 +1,161 @@
+.Navigation{
+  z-index: 2;
+  position: absolute;
+  width:100%;
+}
+.PagesNav{
+  background: #00000000;
+}
+
+.NavNav{
+  padding: 8px 0;
+  background: #1a1a1a;
+  color:#777;
+  display:flex;
+}
+
+.NavNav #NavInfo{
+  flex:7;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 3px;
+  padding-left: 10vw;
+}
+
+.NavNav #NavLinks{
+  flex:4;
+}
+.NavLink{
+  padding:0 20px;
+  border-left: 1px solid #aaa;
+  font-size: 12px;
+  font-weight: 600;
+}
+.NavLinks{
+  color:#aaa;
+}
+
+.MyCarousel{
+  height:100vh;
+  width:100%;
+  /* background-color: darkolivegreen; */
+}
+
+.ProductImg{
+  width: 271.33px;
+  height:335.98px;
+}
+.prodDetails{
+  margin:0;
+  padding: 0;
+}
+.Product{
+  margin:20px 0;
+  color:#777;
+}
+#wishList{
+  float: right;
+}
+
+.CatBanner{
+  border:1px solid #dadada;
+  background-size: cover;
+  background-position:center center;
+  /* width: 420px; */
+  margin: 80px 5px;
+  /* height: 283.14px; */
+  height: 250px;
+}
+.BannerTxt{
+  margin:25px 0 0 25px;
+  color: #444;
+}
+.BannerTxt h5{
+  font-weight: 700;
+  font-size: 28px;
+}
+.BannerTxt p{
+  font-size: 14px;
+  color: #777;
+}
+
+.ProductHeader h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+  color:#222;
+}
+
+.ProductMenu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: flex-start;
+  /* border:1px solid black; */
+}
+
+.ProductMenu li{
+ margin:5px 20px;
+ color: #777;
+}
+.ProductMenu li:first-child{
+  margin-left: 0;
+}
+
+.ProductHeaderOptions{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.SearchAndFilter{
+  margin-left: 20px;
+}
+
+.SAFOption{
+  margin:0 5px;
+}
+
+.SAFOption span{
+  padding:8px 20px;
+  border:1px solid lightgray;
+  color:#777;
+  margin:0;
+}
+.ProductHeader{
+  margin:0px 0 20px 0;
+}
+
+.Footer{
+  background: #1A1A1A;
+  color:#fafafa;
+  padding:80px 0;
+}
+
+.FooterUL{
+  list-style-type: none;
+  padding: 0;
+  color:#777;
+}
+
+#FooterEmail{
+  background: #1A1A1A;
+  border:0px;
+  padding:0px;
+  border-radius: 0;
+  border-bottom: 2px solid #777;
+}
+#FooterGetInTouch{
+  color:#777;
+}
+#FooterEmailSubmit{
+  margin:20px 0;
+  border-radius:25px;
+  padding:10px 40px;
+}
+
+.Shop{
+  padding-top:150px;
+}
